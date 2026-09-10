@@ -2,7 +2,7 @@
 
 ships ai in places where it has to behave.
 
-post-training across the stack. rlhf, rlvr, constitutional ai, and a 2.5b turkish lm pretrained from scratch. deepest in rl and reward design, hands-on with the datasets.
+post-training across the stack. rlhf, rlvr, constitutional ai, and a 2.5b turkish lm pretrained from scratch. focused in rl and reward design, hands on with datasets.
 
 [yavuz.ai](https://yavuz.ai) · [shipbehaves.github.io](https://shipbehaves.github.io) · [huggingface.co/yavuz-ai](https://huggingface.co/yavuz-ai) · [x.com/yavuzai](https://x.com/yavuzai)
 
@@ -23,7 +23,7 @@ a few representative pieces.
 ## open-source
 
 - [huggingface/lighteval#1271](https://github.com/huggingface/lighteval/pull/1271) · merged. fix sample-cache corruption under accelerate data-parallel, with a regression test.
-- [huggingface/trl#6137](https://github.com/huggingface/trl/pull/6137) · open. fix a `GRPOTrainer` crash with `environment_factory` on partial batches, with a regression test.
+- [huggingface/trl#6139](https://github.com/huggingface/trl/pull/6139) · review. barrier placement and device ids on the grpo + vllm colocate hang, adopted by the maintainer.
 - [EleutherAI/lm-evaluation-harness#3973](https://github.com/EleutherAI/lm-evaluation-harness/pull/3973) · open. an obfuscation-robustness control fixture set for the prompt-defense eval.
 
 ## models + datasets
